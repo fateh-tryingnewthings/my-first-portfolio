@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fatehatul Hafiz - Software Engineer & Frontend Developer Portfolio. Explore my work, services, and contact me.">
+  <title>Fatehatul CRM 1963</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Splish Splash -->
+  <div class="splash-screen" id="splash-screen">
+    <div class="splash-content">
+      <svg class="splash-hello" viewBox="-109.06069946289062 -9 2504.0606994628906 746.156005859375">
+        <defs>
+          <linearGradient id="hello-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff" />
+            <stop offset="100%" stop-color="#a8a8aa" />
+          </linearGradient>
+        </defs>
+        <g transform="scale(1, -1) translate(0, -728.156005859375)">
+          <path class="hello-path path-h" d="M-109.06069946289062,95.92639923095703 C1.9544999599456787,157.6403045654297 103.11389923095703,236.9969940185547 217.881103515625,372.07550048828125 C296,464.2846984863281 337.9999084472656,569.5725708007812 340,642.1939697265625 C341,696.1920166015625 314.6702880859375,737.156005859375 266,737.156005859375 C212,737.156005859375 178,696.1920166015625 157,602.1610107421875 C134,498.82000732421875 117,380.239990234375 74,0" fill="none" stroke="url(#hello-gradient)" stroke-width="65" stroke-linecap="round"/>
+          <path class="hello-path path-ello" d="M78.21453094482422,37.160953521728516 C100.22924041748047,230.68260192871094 184,372 291,372 C355,372 395.6745910644531,321 384.1253967285156,248 C377.6238098144531,205 370.0873107910156,161 361.3063049316406,110 C351.0714111328125,46 380.3254089355469,-4 468.96173095703125,-4 C598.2246704101562,-4 739.2435302734375,67.83381652832031 811.4124145507812,179.0941619873047 C836,217 846,251 847,284 C848,344 814,389 754,389 C678,389 620,303 620,193 C620,75 684,-8 819.9180908203125,-8 C1004.7244873046875,-8 1209.4246826171875,213.84754943847656 1303.4808349609375,461.42327880859375 C1330.037353515625,531.3258056640625 1340,596.2349243164062 1340,641.593994140625 C1340,695.3764038085938 1323,736.673583984375 1275,736.673583984375 C1228,736.673583984375 1197,700.1784057617188 1169,642.5543823242188 C1136.1939697265625,575.7216186523438 1111.927734375,479.32598876953125 1102,370.3599853515625 C1077,96.94000244140625 1133,-4 1266.152099609375,-4 C1427.6083984375,-4 1607.1151123046875,220.92921447753906 1698.771728515625,462.18878173828125 C1725.037353515625,531.3258056640625 1735,596.2349243164062 1735,641.593994140625 C1735,695.3764038085938 1718,736.673583984375 1670,736.673583984375 C1623,736.673583984375 1592,700.1784057617188 1564,642.5543823242188 C1531.1939697265625,575.7216186523438 1506.927734375,479.32598876953125 1497,370.3599853515625 C1472,96.94000244140625 1528,-4 1646.906005859375,-4 C1765.623779296875,-4 1830.114990234375,99.48485565185547 1868.77880859375,209.3712158203125 C1907,318 1954,385 2052,385 C2133,385 2197,325 2197,212 C2197,87 2115.90087890625,-7 2013.41845703125,-8 C1923.234130859375,-9 1864,64 1870,174 C1877,296 1951,385 2048,385 C2104,385 2151.03564453125,360.1071472167969 2188,333 C2288.21435546875,259.8928527832031 2365.4287109375,305.0714416503906 2395,377.3571472167969" fill="none" stroke="url(#hello-gradient)" stroke-width="65" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Navigation header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        Al<span class="logo__accent">-</span>Fateh
+      </a>
+      
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+        
+        <!-- Mobile Menu Close Button -->
+        <button class="nav__close" id="nav-close" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu Toggle Button -->
+      <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main content  -->
+  <main class="main">
+    
+    <!--  intro -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Welcome to my Portfolio</span>
+          <h1 class="home__title">
+            <span class="hero-hello-line">
+              <span class="hero-hello-container">
+                <svg class="hero-hello" viewBox="-109.06069946289062 -9 2504.0606994628906 746.156005859375">
+                  <g transform="scale(1, -1) translate(0, -728.156005859375)">
+                    <path class="hello-path path-h" d="M-109.06069946289062,95.92639923095703 C1.9544999599456787,157.6403045654297 103.11389923095703,236.9969940185547 217.881103515625,372.07550048828125 C296,464.2846984863281 337.9999084472656,569.5725708007812 340,642.1939697265625 C341,696.1920166015625 314.6702880859375,737.156005859375 266,737.156005859375 C212,737.156005859375 178,696.1920166015625 157,602.1610107421875 C134,498.82000732421875 117,380.239990234375 74,0" fill="none" stroke="var(--accent-color)" stroke-width="65" stroke-linecap="round"/>
+                    <path class="hello-path path-ello" d="M78.21453094482422,37.160953521728516 C100.22924041748047,230.68260192871094 184,372 291,372 C355,372 395.6745910644531,321 384.1253967285156,248 C377.6238098144531,205 370.0873107910156,161 361.3063049316406,110 C351.0714111328125,46 380.3254089355469,-4 468.96173095703125,-4 C598.2246704101562,-4 739.2435302734375,67.83381652832031 811.4124145507812,179.0941619873047 C836,217 846,251 847,284 C848,344 814,389 754,389 C678,389 620,303 620,193 C620,75 684,-8 819.9180908203125,-8 C1004.7244873046875,-8 1209.4246826171875,213.84754943847656 1303.4808349609375,461.42327880859375 C1330.037353515625,531.3258056640625 1340,596.2349243164062 1340,641.593994140625 C1340,695.3764038085938 1323,736.673583984375 1275,736.673583984375 C1228,736.673583984375 1197,700.1784057617188 1169,642.5543823242188 C1136.1939697265625,575.7216186523438 1111.927734375,479.32598876953125 1102,370.3599853515625 C1077,96.94000244140625 1133,-4 1266.152099609375,-4 C1427.6083984375,-4 1607.1151123046875,220.92921447753906 1698.771728515625,462.18878173828125 C1725.037353515625,531.3258056640625 1735,596.2349243164062 1735,641.593994140625 C1735,695.3764038085938 1718,736.673583984375 1670,736.673583984375 C1623,736.673583984375 1592,700.1784057617188 1564,642.5543823242188 C1531.1939697265625,575.7216186523438 1506.927734375,479.32598876953125 1497,370.3599853515625 C1472,96.94000244140625 1528,-4 1646.906005859375,-4 C1765.623779296875,-4 1830.114990234375,99.48485565185547 1868.77880859375,209.3712158203125 C1907,318 1954,385 2052,385 C2133,385 2197,325 2197,212 C2197,87 2115.90087890625,-7 2013.41845703125,-8 C1923.234130859375,-9 1864,64 1870,174 C1877,296 1951,385 2048,385 C2104,385 2151.03564453125,360.1071472167969 2188,333 C2288.21435546875,259.8928527832031 2365.4287109375,305.0714416503906 2395,377.3571472167969" fill="none" stroke="var(--accent-color)" stroke-width="65" stroke-linecap="round"/>
+                  </g>
+                </svg>
+              </span><span class="hero-comma">,</span>
+            </span>
+            <span class="hero-name-line">
+              I'm <span class="text-accent">Fatehatul Hafiz</span>
+            </span>
+          </h1>
+          <h2 class="home__typewriter">
+            I'm a <span class="typing" id="typing-text"></span><span class="typed-cursor">|</span>
+          </h2>
+          <p class="home__description">
+            A German-Malaysian Creative Multimedia student specializing in designing interactive, user-centric web applications. Combining clean code with amazing architecture to bring ideas to life and to fight against the fully vibe coders.
+          </p>
+          <div class="home__buttons">
+            <a href="#contact" class="btn btn-primary">
+              Hire Me <i class="fa-solid fa-paper-plane"></i>
+            </a>
+            <a href="#portfolio" class="btn btn-secondary">
+              View My Amazing Work <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <div class="home__social">
+            <a href="https://github.com" target="_blank" class="home__social-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="home__social-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="home__social-icon" aria-label="Twitter">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://dribbble.com" target="_blank" class="home__social-icon" aria-label="Dribbble">
+              <i class="fa-brands fa-dribbble"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="home__img-wrapper">
+          <div class="home__img-bg">
+            <img src="images/profile.jpg" alt="Fateh Portrait" class="home__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About intro section -->
+    <section class="about section" id="about">
+      <div class="section__header container text-center">
+        <span class="section__subtitle">My Introduction</span>
+        <h2 class="section__title">About Me</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="about__container container grid">
+        <div class="about__img-wrapper">
+          <img src="images/about.jpg" alt="About Me Workstation" class="about__img">
+        </div>
+        
+        <div class="about__data">
+          <p class="about__description">
+            I am a Frontend Developer and Semester 5 student focused on crafting responsive, secure, and intuitive user interfaces. I enjoy bringing creative designs to life, writing clean code, and keeping up with the latest web trends.  
+          </p>
+          <div class="about__info grid">
+            <div class="about__info-card">
+              <i class="fa-solid fa-award about__info-icon"></i>
+              <h3 class="about__info-title">Experience</h3>
+              <span class="about__info-subtitle">4+ Semesters Working</span>
+            </div>
+            
+            <div class="about__info-card">
+              <i class="fa-solid fa-briefcase about__info-icon"></i>
+              <h3 class="about__info-title">Completed</h3>
+              <span class="about__info-subtitle">10+ Projects</span>
+            </div>
+            
+            <div class="about__info-card">
+              <i class="fa-solid fa-headset about__info-icon"></i>
+              <h3 class="about__info-title">Support</h3>
+              <span class="about__info-subtitle">8/5 Available</span>
+            </div>
+          </div>
+          
+          <div class="about__buttons">
+            <a download="" href="#" class="btn btn-primary">
+              Download CV <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services offer cards -->
+    <section class="services section" id="services">
+      <div class="section__header container text-center">
+        <span class="section__subtitle">What I Offer</span>
+        <h2 class="section__title">Services</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="services__container container grid">
+        <!-- Service Card 1 -->
+        <div class="services__card">
+          <div class="services__icon-wrapper">
+            <i class="fa-solid fa-code services__icon"></i>
+          </div>
+          <h3 class="services__card-title">Web Development</h3>
+          <p class="services__card-description">
+            Building robust, scalable, and secure web applications using cutting-edge frameworks and standard-compliant, clean code.
+          </p>
+          <a href="#portfolio" class="services__button">
+            Read More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="services__card">
+          <div class="services__icon-wrapper">
+            <i class="fa-solid fa-bezier-curve services__icon"></i>
+          </div>
+          <h3 class="services__card-title">UI/UX Design</h3>
+          <p class="services__card-description">
+            Designing aesthetic, user-centric, and interactive wireframes and interfaces that offer seamless journeys and high conversions.
+          </p>
+          <a href="#portfolio" class="services__button">
+            Read More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="services__card">
+          <div class="services__icon-wrapper">
+            <i class="fa-solid fa-mobile-screen-button services__icon"></i>
+          </div>
+          <h3 class="services__card-title">Mobile Optimization</h3>
+          <p class="services__card-description">
+            Ensuring fluid responsiveness and mobile-first configurations for high speeds, seamless touch inputs, and native-like experiences.
+          </p>
+          <a href="#portfolio" class="services__button">
+            Read More <i class="fa-solid fa-arrow-right services__button-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio grid -->
+    <section class="portfolio section" id="portfolio">
+      <div class="section__header container text-center">
+        <span class="section__subtitle">Most Recent Work</span>
+        <h2 class="section__title">Portfolio</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="portfolio__container container grid">
+        <!-- Project 1 -->
+        <div class="portfolio__card">
+          <img src="images/project1.jpg" alt="Final Year Project" class="portfolio__img">
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__card-title">FYP Project</h3>
+            <p class="portfolio__card-description">
+              An online website for fashion store.
+            </p>
+            <a href="https://kernelxelic.lat" target="_blank" class="portfolio__link" aria-label="View Project Source">
+              <i class="fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio__card">
+          <img src="images/project2.jpg" alt="UI Testing on roblox" class="portfolio__img">
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__card-title">UI Testing</h3>
+            <p class="portfolio__card-description">
+              A Roblox game launcher that have smooth animation and free will, supported by PC, Mobile and Console.
+            </p>
+            <a href="https://www.roblox.com/games/13799395524" target="_blank" class="portfolio__link" aria-label="View Project Source">
+              <i class="fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio__card">
+          <img src="images/project3.jpg" alt="E-Commerce Mobile Application Project" class="portfolio__img">
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__card-title">E-Commerce App</h3>
+            <p class="portfolio__card-description">
+              A sleek, responsive mobile application for coffee shop.
+            </p>
+            <a href="https://github.com" target="_blank" class="portfolio__link" aria-label="View Project Source">
+              <i class="fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact details and form -->
+    <section class="contact section" id="contact">
+      <div class="section__header container text-center">
+        <span class="section__subtitle">Get in Touch</span>
+        <h2 class="section__title">Contact Me</h2>
+        <div class="section__line"></div>
+      </div>
+      
+      <div class="contact__container container grid">
+        <!-- Contact Info Column -->
+        <div class="contact__info">
+          <!-- Card 1 -->
+          <div class="contact__info-card">
+            <i class="fa-solid fa-envelope contact__info-icon"></i>
+            <h3 class="contact__info-title">Email</h3>
+            <span class="contact__info-data">mdfatehatul.hafiz.06@egmail.com</span>
+            <a href="mailto:mdfatehatul.hafiz.06@egmail.com" class="contact__info-button">
+              Write Me <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="contact__info-card">
+            <i class="fa-solid fa-phone contact__info-icon"></i>
+            <h3 class="contact__info-title">Phone</h3>
+            <span class="contact__info-data">+(60) 18 962-5482</span>
+            <a href="tel:+15550192834" class="contact__info-button">
+              Call Me <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="contact__info-card">
+            <i class="fa-solid fa-location-dot contact__info-icon"></i>
+            <h3 class="contact__info-title">Location</h3>
+            <span class="contact__info-data">Puchong, Selangor</span>
+            <a href="https://maps.google.com" target="_blank" class="contact__info-button">
+              Find Me <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form Column -->
+        <div class="contact__form-container">
+          <form action="" class="contact__form" id="contact-form">
+            <div class="contact__form-div">
+              <label for="contact-name" class="contact__form-tag">Name</label>
+              <input type="text" id="contact-name" placeholder="Insert your name" class="contact__form-input" required autocomplete="name">
+            </div>
+            
+            <div class="contact__form-div">
+              <label for="contact-email" class="contact__form-tag">Email</label>
+              <input type="email" id="contact-email" placeholder="Insert your email" class="contact__form-input" required autocomplete="email">
+            </div>
+            
+            <div class="contact__form-div contact__form-area">
+              <label for="contact-message" class="contact__form-tag">Message</label>
+              <textarea id="contact-message" cols="30" rows="10" placeholder="Write your project details..." class="contact__form-input" required></textarea>
+            </div>
+            
+            <div id="contact-status-message" class="contact__status-message"></div>
+            
+            <button type="submit" class="btn btn-primary contact__form-btn">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer links and socials -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h2 class="footer__title">Fatehatul Hafiz</h2>
+      
+      <ul class="footer__list">
+        <li><a href="#home" class="footer__link">Home</a></li>
+        <li><a href="#about" class="footer__link">About</a></li>
+        <li><a href="#services" class="footer__link">Services</a></li>
+        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+        <li><a href="#contact" class="footer__link">Contact</a></li>
+      </ul>
+      
+      <div class="footer__socials">
+        <a href="https://github.com" target="_blank" class="footer__social" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="footer__social" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="footer__social" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      
+      <p class="footer__copy">&#169; Fatehatul Hafiz. All rights reserved. 2026</p>
+    </div>
+  </footer>
+
+  <!-- Back-to-top button -->
+  <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
